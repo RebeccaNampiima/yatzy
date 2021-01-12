@@ -4,147 +4,138 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="yatzy.css" />
-		<title>Yatzy</title>
+		<title>Yatzyy</title>
 	</head>
 	<body>
-		<table>
-			<caption>
-				YATZY
-			</caption>
-			<tr class="main_header">
-				<th class="lead_header">Spelare/Player</th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<td>Eltor/ones</td>
-				<td><input type="number" id="playerOneOfOnes" value="0" /></td>
-				<td><input type="number" id="playerTwo" value="0" /></td>
-				<td><input type="number" id="playerThree" value="0" /></td>
-				<td><input type="number" id="playerFour" value="0" /></td>
-			</tr>
-			<tr>
-				<td>Tvåor/twos</td>
-				<td><input type="number" id="playerOneOfTwos" value="0" /></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>Treor/Threes</td>
-				<td><input type="number" id="playerOneOfThrees" value="0" /></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>Fyror/Fours</td>
-				<td><input type="number" id="playerOneOfFours" value="0" /></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>Femmor/Fives</td>
-				<td><input type="number" id="playerOneofFives" value="0" /></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>Sexor/Sixes</td>
-				<td><input type="number" id="playerOneofSixes" value="0" /></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<th class="lead_header" id="sum">Summa/Sum</th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<th class="lead_header" id="bonus">Bonus</th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-			<tr>
-				<td>Par/Pairs</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>Två par/Two pairs</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>Tretal/Three of a kind</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>Fytal/Four of a kind</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>Liten stege/Small straight</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>Stor stegel/Largestraight</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>Kåk/Full house</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>Chans/Chance</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>Yatzy</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<th class="lead_header">Totalt/Total</th>
-				<th></th>
-				<th></th>
-				<th></th>
-				<th></th>
-			</tr>
-		</table>
+		
+		<div class="myBody">
+
+			<table>
+				<caption>
+					YATZY
+				</caption>
+				<tr class="main_header">
+					<th class="lead_header">Spelare/Player</th>
+					<th id="p1"></th>
+					<th id="p2"></th>
+					
+				</tr>
+				<tr>
+					<td>Eltor/ones</td>
+					<td class="minor10 minor notChoosedMinor"></td> 
+					<td class="minor11 minor notChoosedMinor"></td>	
+					
+				</tr>
+				<tr>
+					<td>Tvåor/twos</td>
+					<td class="minor20 minor notChoosedMinor"></td>
+					<td class="minor21 minor notChoosedMinor"></td>
+					
+				</tr>
+				<tr>
+					<td>Treor/Threes</td>
+					<td class="minor30 minor notChoosedMinor"></td>
+					<td class="minor31 minor notChoosedMinor"></td>
+					
+				</tr>
+				<tr>
+					<td>Fyror/Fours</td>
+					<td class="minor40 minor notChoosedMinor"></td>
+					<td class="minor41 minor notChoosedMinor"></td>
+					
+				</tr>
+				<tr>
+					<td>Femmor/Fives</td>
+					<td class="minor50 minor notChoosedMinor"></td>
+					<td class="minor51 minor notChoosedMinor"></td>
+					
+				</tr>
+				<tr>
+					<td>Sexor/Sixes</td>
+					<td class="minor60 minor notChoosedMinor"></td>
+					<td class="minor61 minor notChoosedMinor"></td>
+					
+				</tr>
+				<tr>
+					<th class="lead_header" id="sum">Summa/Sum</th>
+					<th class="sum0"></th>
+					<th class="sum1"></th>
+					
+				</tr>
+				<tr>
+					<th class="lead_header" id="bonus">Bonus</th>
+					<th class="bonus0"></th>
+					<th class="bonus1"></th>
+					
+				</tr>
+				<tr>
+					<td>Tretal/Three of a kind</td>
+					<td class="threeOfKind0 major notChoosedMajor" ></td>
+					<td class="threeOfKind1 major notChoosedMajor" ></td>
+					
+				</tr>
+				<tr>
+					<td>Fytal/Four of a kind</td>
+					<td class="fourOfKind0 major notChoosedMajor"></td>
+					<td class="fourOfKind1 major notChoosedMajor"></td>
+					
+				</tr>
+				<tr>
+					<td>Liten stege/Small straight</td>
+					<td class="smallStraight0 major notChoosedMajor"></td>
+					<td class="smallStraight1 major notChoosedMajor"></td>
+					
+				</tr>
+				<tr>
+					<td>Stor stegel/Largestraight</td>
+					<td class="largeStraight0 major notChoosedMajor"></td>
+					<td class="largeStraight1 major notChoosedMajor"></td>
+					
+				</tr>
+				<tr>
+					<td>Kåk/Full house</td>
+					<td class="fullhouse0 major notChoosedMajor" ></td>
+					<td class="fullhouse1 major notChoosedMajor" ></td>
+					
+				</tr>
+				<tr>
+					<td>Chans/Chance</td>
+					<td class="chance0 major notChoosedMajor"></td>
+					<td class="chance1 major notChoosedMajor"></td>
+					
+				</tr>
+				<tr>
+					<td>Yatzy</td>
+					<td class="yatzy0 major notChoosedMajor"></td>
+					<td class="yatzy1 major notChoosedMajor"></td>
+					
+				</tr>
+				<tr>
+					<th class="lead_header">Totalt/Total</th>
+					<th class="total0"></th>
+					<th class="total1"></th>
+					
+				</tr>
+			</table>
+
+			<div class="onePart">
+				<button class="roll">Roll Dices</button>
+	
+			<div class="dices">
+				<h3 class="notChoosed " >Dice</h3>
+				<h3 class="notChoosed" >Dice</h3>
+				<h3 class="notChoosed" >Dice</h3>
+				<h3 class="notChoosed" >Dice</h3>
+				<h3 class="notChoosed" >Dice</h3>
+			</div>
+			</div>
+
+		</div>
+
+		<div class="ended">
+			<h1></h1>
+			<button class="restart">Restart</button>
+		</div>
 
 		<script src="yatzy.js"></script>
 	</body>

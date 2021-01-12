@@ -3,8 +3,7 @@ caption {
 	font-size: 30px;
 }
 table {
-	width: 400px;
-	margin: auto;
+	width: 700px;
 }
 
 th {
@@ -24,7 +23,7 @@ td {
 }
 
 .lead_header {
-	background-color: gray;
+	background-color: rgb(160, 160, 160);
 }
 
 th:nth-child(n + 2) {
@@ -34,4 +33,46 @@ th:nth-child(n + 2) {
 
 td:nth-child(even) {
 	background-color: gray;
+}
+.dices{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	border: 1px solid black;
+	text-align: center;
+	width: 70px;
+	height: 500px;
+	margin-top: 100px;
+	margin-left: 30px;
+}
+.dices h3{
+	cursor: pointer;
+	margin: auto;
+	padding: 10px;
+}
+.myBody{
+	display: flex;
+	justify-content: space-around;
+}
+.onePart{
+	display: flex;
+	justify-content: space-between;
+}
+.roll{
+	height: 50px;
+	padding: 10px 30px;
+	margin-top: 300px;
+	background-color: gray;
+	border-radius: 10rem;
+	cursor: pointer;
+}
+.choosedDice{
+	background-color: gray;
+	color: white;
+	border: 1px solid black;
+}
+.choosedMinor, .choosedMajor{
+	background-color: red !important;
+	border: 1px solid black;
 }

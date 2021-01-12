@@ -1,0 +1,27 @@
+.myForm{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.myForm div{
+    margin-bottom: 25px;
+    width: 100%;
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+}
+button{
+    float: right;
+    padding: 5px 10px;
+    background-color: turquoise;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+}
